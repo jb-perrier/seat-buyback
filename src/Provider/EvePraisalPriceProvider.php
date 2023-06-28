@@ -53,7 +53,7 @@ class EvePraisalPriceProvider extends AbstractEvePriceProvider implements IPrice
 
         return new BuybackPriceData(
             $itemTypeId,
-            $prices["summaries"][0]["prices"]["buy"]["percentile"]
+            $prices["summaries"][0]["prices"]["sell"]["percentile"]
         );
     }
 
