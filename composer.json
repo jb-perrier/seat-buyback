@@ -1,11 +1,11 @@
 {
-    "name": "jb-perrier/seat-buyback",
-    "description": "Fork of h4zz4rddev/seat-buyback",
+    "name": "h4zz4rddev/seat-buyback",
+    "description": "Buyback plugin for SeAT",
     "license": "GPL-3.0",
     "authors": [
         {
-            "name": "jb-perrier",
-            "email": "jimi.vacarians@gmail.com"
+            "name": "H4zz4rd",
+            "email": "h4zz4rd@c64gamer.com"
         }
     ],
     "autoload": {
