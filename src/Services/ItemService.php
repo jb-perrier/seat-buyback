@@ -143,8 +143,8 @@ class ItemService
 
         foreach (preg_split('/\r\n|\r|\n/', $item_string) as $item) {
 
-            $item = str_replace("*", "", $item);
-            
+            $item = str_replace("*", " ", $item);
+
             if (strlen($item) < 2) {
                 throw new ItemParserBadFormatException();
             }
