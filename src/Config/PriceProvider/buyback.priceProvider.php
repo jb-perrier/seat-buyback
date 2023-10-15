@@ -8,5 +8,9 @@ return [
     'evePraisal' => [
         'name' => 'EVEPraisal',
         'apiUrl' => 'https://evepraisal.com'
+    ],
+    'janice' => [
+        'name' => 'Janice',
+        'apiUrl' => 'https://janice.e-351.com/'
     ]
 ];
