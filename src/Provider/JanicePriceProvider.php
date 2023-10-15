@@ -39,7 +39,7 @@ class EvePraisalPriceProvider extends AbstractEvePriceProvider implements IPrice
     {
         parent::__construct($settingsService);
 
-        $this->name = "Janice";
+        $this->name = "janice";
     }
 
     /**
