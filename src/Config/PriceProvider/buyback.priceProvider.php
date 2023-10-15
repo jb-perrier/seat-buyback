@@ -11,6 +11,6 @@ return [
     ],
     'janice' => [
         'name' => 'Janice',
-        'apiUrl' => 'https://janice.e-351.com/'
+        'apiUrl' => 'https://janice.e-351.com'
     ]
 ];
