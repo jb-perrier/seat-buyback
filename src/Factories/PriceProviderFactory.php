@@ -62,6 +62,9 @@ class PriceProviderFactory
                 case 2:
                     $priceProvider = new EvePraisalPriceProvider($this->settingsService);
                     break;
+                case 3:
+                    $priceProvider = new JanicePriceProvider($this->settingsService);
+                    break;
             }
         } catch (SettingsServiceException $e) {
             throw new SettingsServiceException(trans('buyback::global.error'));

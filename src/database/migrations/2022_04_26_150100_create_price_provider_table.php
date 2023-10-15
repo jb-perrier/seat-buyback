@@ -53,6 +53,9 @@ class CreatePriceProviderTable extends Migration
             'name' => 'EvePraisal',
         ]);
 
+        DB::table('buyback_price_provider')->insert([
+            'name' => 'Janice',
+        ]);
 
         //Adding initial price provider
         DB::table('buyback_admin_config')->insert([

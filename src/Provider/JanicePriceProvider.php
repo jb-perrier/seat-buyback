@@ -28,9 +28,9 @@ use H4zz4rdDev\Seat\SeatBuyback\Models\BuybackPriceData;
 use H4zz4rdDev\Seat\SeatBuyback\Services\SettingsService;
 
 /**
- * Class EvePraisalPriceProvider
+ * Class JanicePriceProvider
  */
-class EvePraisalPriceProvider extends AbstractEvePriceProvider implements IPriceProvider
+class JanicePriceProvider extends AbstractEvePriceProvider implements IPriceProvider
 {
     /**
      * @param SettingsService $settingsService
