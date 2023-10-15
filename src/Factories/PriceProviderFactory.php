@@ -25,6 +25,7 @@ namespace H4zz4rdDev\Seat\SeatBuyback\Factories;
 use H4zz4rdDev\Seat\SeatBuyback\Exceptions\SettingsServiceException;
 use H4zz4rdDev\Seat\SeatBuyback\Provider\EveMarketerPriceProvider;
 use H4zz4rdDev\Seat\SeatBuyback\Provider\EvePraisalPriceProvider;
+use H4zz4rdDev\Seat\SeatBuyback\Provider\JanicePriceProvider;
 use H4zz4rdDev\Seat\SeatBuyback\Provider\IPriceProvider;
 use H4zz4rdDev\Seat\SeatBuyback\Services\SettingsService;
 
